@@ -140,15 +140,15 @@ keywords: "kayden kehe,harvard,deep learning, ai,computer science"
 #footer-hover-col: "#0085A1"
 
 navbar-col: "#282828"
-navbar-text-col: "#f69833"
+navbar-text-col: "#ffffff"
 navbar-border-col: "#282828"
 page-col: "#121212"
 text-col: "#ffffff"
-link-col: "#f69833"
+link-col: "#fdbd39"
 hover-col: "#ffffff"
 footer-col: "#282828"
 footer-text-col: "#ffffff"
-footer-link-col: "#f69833"
+footer-link-col: "#fdbd39"
 footer-hover-col: "#ffffff"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
