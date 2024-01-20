@@ -131,7 +131,8 @@ img {
 
 .navbar-custom {
   background-color: {{ site.navbar-col | default: "#EAEAEA" }};
-  border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
+  box-shadow: 10px 0 10px -2px #000;
+  /*border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};*/
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
@@ -386,7 +387,8 @@ img {
 
 footer {
   padding: 1.875rem 0;
-  border-top: 1px #EAEAEA solid;
+  box-shadow: 10px 0 10px -2px #000;
+  /*border-top: 1px #EAEAEA solid;*/
   margin-top: 3.125rem;
   font-size: 0.875rem;
   background-color: {{ site.footer-col | default: "#EAEAEA" }};
